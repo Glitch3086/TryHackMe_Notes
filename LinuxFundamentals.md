@@ -1,6 +1,5 @@
 # **Linux Fundamentals Part 1**
 
-## **Basic Command Execution**
 `echo` returns whatever is inputted into it. 
 
 Example: 

@@ -15,3 +15,7 @@ Example:
 Example: 
 > cat Test.txt
 
+`touch` is used to create files.
+
+Example: 
+> touch Test.txt

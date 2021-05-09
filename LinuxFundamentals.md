@@ -35,4 +35,4 @@ Example:
 | ----------- | ----------- | ----------- | ----------- |----------- | ----------- |
 | . | Current Directory | /tmp/aa  | . | ./hello | /tmp/aa/hello |
 | .. | Directory before the current directory	 | /tmp | .. | ../hello | /tmp/hello |
-| ~ | Directory before the current directory	 | /home/< current user>	 | ~ | ~/hello | /home/<user>/hello |
+| ~ | Directory before the current directory	 | /home/< current user>	 | ~ | ~/hello | /home/< user>/hello |

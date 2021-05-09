@@ -7,5 +7,6 @@
 
 `cat` is short for concatenate, and it outputs the contents of files to the console. 
 
-Example: > cat Test.txt
+Example: 
+> cat Test.txt
 

@@ -1,2 +1,7 @@
-# Linux Fundamentals Part 1
+# **Linux Fundamentals Part 1**
+
+## **Basic Command Execution**
+`echo` returns whatever is inputted into it. Example: `echo Hello World!`
+
+ `man` is used to display the user manual of any command that we can run on the terminal. Example: `man echo`
 

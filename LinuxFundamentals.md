@@ -1,5 +1,5 @@
-# **Linux Fundamentals Part 1**
-
+# **Linux Commands**
+## **Part 1**
 `echo` returns whatever is inputted into it. 
 
 Example: 

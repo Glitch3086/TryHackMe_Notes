@@ -45,3 +45,14 @@ Relative Paths:
 
 Example: 
 > su root
+
+---
+## **Part 2**
+
+`SSH` is a network protocol that enables secure remote connections between two systems. System admins use SSH utilities to manage machines, copy, or move files between systems.
+
+Example:
+> ssh user@IP
+
+For Example:
+> ssh User@10.10.10.10

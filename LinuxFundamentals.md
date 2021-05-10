@@ -56,3 +56,10 @@ Example:
 
 For Example:
 > ssh User@10.10.10.10
+
+### **Linux Operators**
+
+`&&` allows you to execute a second commant after the first one has executed successfully. The first command must run properly or else the second command will not work.
+
+Example:
+> ls && echo hello

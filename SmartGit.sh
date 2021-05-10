@@ -1,4 +1,4 @@
-cd Pentesting-Notes/
+cd TryHackMe_Notes/
 git add --all
 echo "------------In Progress ----------"
 git commit -m"Repo Updated"

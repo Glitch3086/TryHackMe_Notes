@@ -63,3 +63,9 @@ For Example:
 
 Example:
 > ls && echo hello
+
+
+`&` is a background operator, meaning say you run a command that takes 10 seconds to run, normally you wouldn't be able to run commands during that period; however, with & that command will still execute and you'll be able to run other commands.
+
+Example:
+> sh my_script.sh &

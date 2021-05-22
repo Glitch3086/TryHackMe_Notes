@@ -77,3 +77,27 @@ Example:
 > echo $USER
 
 Naturally this means environment variables can be used as input for other commands as well, for example say I wanted to create a file which is the name of our current user, I could do `touch $USER`. Environment variables can also be set pretty easily, just running `export <varname>=<value>` will set that as an environment variable
+
+
+`|` is a operator called the pipe. While `>>` allows you to store the output of a command, `|` allows you to take the output of a command and use it as input for a second command. Like I can use `cat` to get the output fo a file, and pipe that into `grep` to search for a specific string.
+
+Example:
+> cat test | grep noot
+
+
+`;` works a lot like &&, however it does not require the first command to execute successfully. 
+
+Example:
+> lahbsgoiang; ls
+
+
+`>` is the operator for output redirection. Meaning that you can redirect the output of any command to a file. For example if I were to run `echo hello > file`, then instead of outputting hello to the console, it would save that output to a file called file. It is worth noting that if you were to use this operator on a file that already exists, it would completely erase the contents of that file and replace it with the output from your command.
+
+Example:
+> echo hello > file
+
+
+`>>` does mainly the same thing as `>`, with one key difference. `>>` appends the output of a command to a file, instead of erasing it.
+
+Example:
+> echo hello >> file

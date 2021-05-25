@@ -107,3 +107,17 @@ Example:
 `chown` allows you to change the user and group for any file. The syntax for this command is chown user:group file. For example if we wanted to change the owner of file to user2 as well as the group to user2, we could use `chown user2:user2 file`.
 
 Note: You can only use chown if you are 'above' that other user, meaning that this is best done when you are the root(administrator) user.
+
+
+`chmod` allows you to set the different permissions for a file, and control who can read it. The syntax of this command is typically `chmod <permissions> <file>`. The permissions are set using a three digit number, where each digit controls a specific permission, meaning the first digit controls the permissions for a user, the second digit controls the permission for a group, the third digit controls permissions for everyone that's not a part of the user or group.
+
+Now the value of the digits control whether they can read, write or execute it or do all three, and to properly calculate it some math needs to be done.
+| Digit | Meaning |
+| ----------- | ----------- |
+| 1 | That file can be executed |
+| 2 | That file can be written to	 |
+| 3 | That file can be executed and written to |
+| 4 | That file can be read |
+| 5 | That file can be read and executed |
+| 6 | That file can be written to and read |
+| 7 | That file can be read, written to, and executed |

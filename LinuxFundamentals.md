@@ -104,3 +104,6 @@ Example:
 
 ### **Advance File Operators**
 
+`chown` allows you to change the user and group for any file. The syntax for this command is chown user:group file. For example if we wanted to change the owner of file to user2 as well as the group to user2, we could use `chown user2:user2 file`.
+
+Note: You can only use chown if you are 'above' that other user, meaning that this is best done when you are the root(administrator) user.

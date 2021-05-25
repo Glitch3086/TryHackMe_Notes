@@ -121,3 +121,10 @@ Now the value of the digits control whether they can read, write or execute it o
 | 5 | That file can be read and executed |
 | 6 | That file can be written to and read |
 | 7 | That file can be read, written to, and executed |
+
+The way these values are calculated is this. The digit 1 means the file can be executed, the digit 2 means it can be written to, and the digit 4 means it can be read. You get the different permissions by adding these digits together. For example 1+2 is 3 meaning that file can be executed and written to. Now let's see how it all works in perspective.
+| Command | Meaning |
+| ----------- | ----------- |
+| chmod 341 file | The file can be executed and written to by the user that owns the file. The file can be read by the group that owns the file. The file can be executed by everyone else. |
+| chmod 777 file | The file can be read, written to, and executed by the user that owns the file. The file can be read, written to, and executed by the group that owns the file. The file can be read, written to, and executed by everyone else.	 |
+| chmod 455 file | The file can be read by the user that owns the file. The file can be read and executed by the group that owns the file. The file can be read to and executed by everyone else. |

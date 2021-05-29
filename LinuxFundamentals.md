@@ -142,3 +142,8 @@ Example:
 
 Example of changing name:
 > mv file ~/dhgfds
+
+---
+## **Part 2**
+
+### Advance File Operations

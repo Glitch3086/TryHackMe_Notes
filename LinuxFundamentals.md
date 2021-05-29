@@ -130,3 +130,15 @@ The way these values are calculated is this. The digit 1 means the file can be e
 | chmod 455 file | The file can be read by the user that owns the file. The file can be read and executed by the group that owns the file. The file can be read to and executed by everyone else. |
 
 The File permissions are divided into three sections, user and group and everyone else. for example lets look at this `ls -al` being executed and here is one of the results: `-rw-r--r-- 1 User3 User3 807 Feb 20 01:44 .profile` Everything starts from the second hyphen not the first, so we dont even look at the first hyphen. Also note that everything is in sequential order, so the first three characters control permissions for the user, the second three characters control permissions for the group, and the final three characters control permissions for everyone else.
+
+
+`rm` is a remove command and it does exactly as its name implys, it removes. 
+
+Example:
+> rm file
+
+
+`mv` allows you to move files from one place to another. The syntax for the command is `mv <file> <destination>`. So if I wated to move a file to my home directory(~) I would just type `mv file ~` You can also use `mv` to change the name of file.
+
+Example of changing name:
+> mv file ~/dhgfds

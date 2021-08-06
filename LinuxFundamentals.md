@@ -149,7 +149,20 @@ Example of changing name:
 ### Advance File Operations
 
 
-`cp` does mainly the sme thing as mv, except instead of moving the file it duplicates(copies) it. The syntax is also the same as mv.
+`cp` does mainly the sme thing as `mv`, except instead of moving the file it duplicates(copies) it. The syntax is also the same as `mv`.
 
 Example:
 > cp < file > < destination > (no spaces between arrows)
+
+
+`cd` allows you to change the location of the current directory, the syntx of this command is `cd <directory>`.
+
+Example:
+> cd Download
+
+Relative Paths are also supported, as well as absolute paths.
+
+`mkdir` is used to make a new directory to store files in, and the syntax of `mkdir` is `mkdir <directory name>`
+
+Example:
+> mkdir Test

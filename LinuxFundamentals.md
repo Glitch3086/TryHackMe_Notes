@@ -147,3 +147,9 @@ Example of changing name:
 ## **Part 2**
 
 ### Advance File Operations
+
+
+`cp` does mainly the sme thing as mv, except instead of moving the file it duplicates(copies) it. The syntax is also the same as mv.
+
+Example:
+> cp < file > < destination > (no spaces between arrows)

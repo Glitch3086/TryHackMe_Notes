@@ -1,4 +1,4 @@
-# **Linux Commands test**
+# **Linux Commands**
 ## **Part 1**
 
 `echo` returns whatever is inputted into it. 

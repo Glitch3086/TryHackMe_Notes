@@ -1,4 +1,4 @@
-# **Linux Commands asdfh**
+# **Linux Commands**
 ## **Part 1**
 
 `echo` returns whatever is inputted into it. 
